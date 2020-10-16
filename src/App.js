@@ -3,7 +3,8 @@ import {Background} from './components/Background';
 import {Counter} from './components/Counter';
 import {LocalStorage} from './components/LocalStorage';
 import {Mobile} from './components/Mobile';
-import {Fetch} from './components/Fetch';
+import {FetchStarWars} from './components/FetchStarWars';
+import {Konami} from './components/Konami';
 
 function App() {
   return (
@@ -17,7 +18,9 @@ function App() {
       <hr />
       <Mobile />
       <hr />
-      <Fetch />
+      <FetchStarWars />
+      <hr />
+      <Konami />
     </>
   );
 }
