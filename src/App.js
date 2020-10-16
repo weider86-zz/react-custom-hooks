@@ -1,7 +1,9 @@
 import React from 'react';
-import {Background} from './Background';
-import {Counter} from './Counter';
-import {LocalStorage} from './LocalStorage';
+import {Background} from './components/Background';
+import {Counter} from './components/Counter';
+import {LocalStorage} from './components/LocalStorage';
+import {Mobile} from './components/Mobile';
+import {Fetch} from './components/Fetch';
 
 function App() {
   return (
@@ -12,6 +14,10 @@ function App() {
       <Counter />
       <hr />
       <LocalStorage />
+      <hr />
+      <Mobile />
+      <hr />
+      <Fetch />
     </>
   );
 }
