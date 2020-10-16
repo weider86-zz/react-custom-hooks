@@ -1,5 +1,5 @@
 import React from 'react';
-import {useBackground} from './useBackground';
+import {useBackground} from '../shared/hooks/useBackground';
 
 export const Background = () => {
   const [color, setColor] = useBackground();

@@ -1,5 +1,5 @@
 import React from 'react';
-import {useCount} from './useCount';
+import {useCount} from '../shared/hooks/useCount';
 
 export const Counter = () => {
   const {count, increment, decrement} = useCount();

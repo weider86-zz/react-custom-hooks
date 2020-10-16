@@ -1,5 +1,5 @@
 import React from 'react';
-import {useLocalStorage} from './useLocalStorage';
+import {useLocalStorage} from '../shared/hooks/useLocalStorage';
 
 export const LocalStorage = () => {
   const [name, setName] = useLocalStorage('name', '');
