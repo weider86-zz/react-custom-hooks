@@ -11,11 +11,11 @@ export const Mobile = () => {
       <h2>Device: </h2>
       {onMobile ? (
         <div>
-          <img src={mobile} width='100px' />
+          <img src={mobile} alt='mobile' width='100px' />
         </div>
       ) : (
         <div>
-          <img src={desktop} width='100px' />
+          <img src={desktop} alt='desktop' width='100px' />
         </div>
       )}
     </>
